@@ -28,5 +28,11 @@ PhaserImage.prototype.setPosition= function(x,y) {
     this.sprite.position.x= x;
     this.sprite.position.y= y;   
 };
+PhaserImage.prototype.getPosition= function() {
+    return this.sprite.position;   
+};
+PhaserImage.prototype.setAlpha= function(value) {
+    this.sprite.alpha= value;
+};
 
 
